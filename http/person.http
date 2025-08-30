@@ -1,0 +1,12 @@
+### find all
+GET http://localhost:8080/api/person/getAll
+Accept: application/json
+
+
+### save person
+POST http://localhost:8080/api/person/save
+Content-Type: application/json
+
+{
+  "name":"John"
+}
