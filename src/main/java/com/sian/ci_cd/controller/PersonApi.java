@@ -22,11 +22,6 @@ public class PersonApi {
 
     @GetMapping("/getAll")
     public List<Person> getAll(){
-        for (Method method : Person.class.getMethods()) {
-            System.out.println(method.getName());
-        }
-        Person person = new Person();
-        person.setName("a");
         return personService.getAll();
     }
 
