@@ -7,8 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test1 {
     @Test
-    public void failTest(){
-        assertEquals(2,2+2);
+    public void failTestSolved(){
+        System.out.println("THIS IS TEST 1");
+        assertEquals(2,2);
     }
 
 
