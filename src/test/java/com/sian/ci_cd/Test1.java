@@ -15,6 +15,6 @@ public class Test1 {
 
     @Test
     public void passTest(){
-        assertEquals(5,5);
+        assertEquals(6,6);
     }
 }
