@@ -16,7 +16,6 @@ public class PersonApi {
 
     @PostMapping("/save")
     public void save(@RequestBody Person person){
-        System.out.println("HERE");
         personService.save(person);
     }
 
